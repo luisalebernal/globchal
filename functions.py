@@ -181,7 +181,6 @@ def create_table_if_not_exists(conn, df, table_name):
     cursor.execute(create_table_query)
     print(f"Table {table_name} created successfully.")
 
-
 def insert_df_to_snowflake(df, table_name, snowflake_config, batch_id):
     df['BATCH_ID'] = batch_id
 
