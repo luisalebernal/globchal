@@ -333,6 +333,8 @@ def upsert_df_to_snowflake(df, table_name, snowflake_config, primary_key_column)
 
 
 def drop_table_from_snowflake(table_name, snowflake_config):
+    table_name = table_name.upper()
+
     # Establish a connection to Snowflake
     conn = snowflake.connector.connect(**snowflake_config)
 
