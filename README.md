@@ -71,6 +71,9 @@ Click Send in Postman to execute the request. The application will process the d
 The application is containerized using Docker and deployed on Render. You can view the deployment status and logs on the Render dashboard.
 
 <h2>Additional Information</h2>
-Repository: GitHub Repository URL (Replace with your actual repository URL)
+
+Repository: GitHub Repository URL (https://github.com/luisalebernal/globchal.git)
+
 Diagram: globchal_diagram.pdf (Provides a visual representation of the architecture)
-Docker Image: Available on Docker Hub (Replace with your actual Docker Hub repository if applicable)
+
+Docker Image: Available on Docker Hub (luisbernal20/globchal_rep)
