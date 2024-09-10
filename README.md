@@ -15,6 +15,7 @@ The solution follows a standard ETL (Extract, Transform, Load) workflow and is i
 The architecture is visualized in the globchal_diagram.pdf file, which provides a detailed overview of the data flow.
 
 <h2>Getting Started</h2>
+
 **Prerequisites**
 
 Before testing the application, ensure you have the following:
@@ -24,6 +25,7 @@ Before testing the application, ensure you have the following:
 2. Proper configuration values for MySQL and Snowflake.
 
 **Testing the Application**
+
 To test the application, follow these steps:
 
 1. Send a POST Request: Use Postman or any HTTP client to send a POST request to one of the following URLs. Both URLs provide the same functionality, with the first one using a GitHub-hosted application and the second one using a Docker image deployed on Render:
