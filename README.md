@@ -2,20 +2,21 @@
 
 Welcome to the solution for the Globant Data Engineering Challenge. This project demonstrates a data pipeline that extracts data from a MySQL database, processes it using Python, and loads it into a Snowflake database. Below is a detailed explanation of the solution and how to test it.
 
-Architecture
+**Architecture**
 
 The solution follows a standard ETL (Extract, Transform, Load) workflow and is implemented with the following components:
 
-Source Extraction: Data is extracted from a MySQL database hosted on Railway.
+1. Source Extraction: Data is extracted from a MySQL database hosted on Railway.
 
-Processing: Data processing is handled by a Python application deployed on Render.
+2. Processing: Data processing is handled by a Python application deployed on Render.
 
-Target Loading: Processed data is loaded into a Snowflake database.
+3. Target Loading: Processed data is loaded into a Snowflake database.
 
 The architecture is visualized in the globchal_diagram.pdf file, which provides a detailed overview of the data flow.
 
-##Getting Started
-Prerequisites
+**Getting Started**
+**Prerequisites**
+
 Before testing the application, ensure you have the following:
 
 Access to Postman or a similar API testing tool.
