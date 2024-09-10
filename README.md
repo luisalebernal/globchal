@@ -28,13 +28,17 @@ Before testing the application, ensure you have the following:
 
 To test the application, follow these steps:
 
-1. Send a POST Request: Use Postman or any HTTP client to send a POST request to one of the following URLs. Both URLs provide the same functionality, with the first one using a GitHub-hosted application and the second one using a Docker image deployed on Render:
+**1. Send a POST Request**
+
+Use Postman or any HTTP client to send a POST request to one of the following URLs. Both URLs provide the same functionality, with the first one using a GitHub-hosted application and the second one using a Docker image deployed on Render:
 
 GitHub-hosted: https://globchal-1.onrender.com/execute
 
 Docker image on Render: https://globchal-rep-docker.onrender.com/execute
 
-2. Configure the Request Body: In Postman, select the Body tab, choose the Raw option, and set the format to JSON. Then, enter the following JSON body:
+**2. Configure the Request Body**
+
+In Postman, select the Body tab, choose the Raw option, and set the format to JSON. Then, enter the following JSON body:
 
 {
   "configuration": {
