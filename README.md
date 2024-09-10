@@ -1,4 +1,4 @@
-**Globant Data Engineering Challenge** <h1>
+<h1> **Globant Data Engineering Challenge** <h1>
 
 Welcome to the solution for the Globant Data Engineering Challenge. This project demonstrates a data pipeline that extracts data from a MySQL database, processes it using Python, and loads it into a Snowflake database. Below is a detailed explanation of the solution and how to test it.
 
