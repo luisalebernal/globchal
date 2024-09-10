@@ -7,11 +7,14 @@ Architecture
 The solution follows a standard ETL (Extract, Transform, Load) workflow and is implemented with the following components:
 
 Source Extraction: Data is extracted from a MySQL database hosted on Railway.
+
 Processing: Data processing is handled by a Python application deployed on Render.
+
 Target Loading: Processed data is loaded into a Snowflake database.
+
 The architecture is visualized in the globchal_diagram.pdf file, which provides a detailed overview of the data flow.
 
-#Getting Started
+##Getting Started
 Prerequisites
 Before testing the application, ensure you have the following:
 
