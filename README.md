@@ -14,7 +14,7 @@ The solution follows a standard ETL (Extract, Transform, Load) workflow and is i
 
 The architecture is visualized in the globchal_diagram.pdf file, which provides a detailed overview of the data flow.
 
-**Getting Started**
+<h2>Getting Started</h2>
 **Prerequisites**
 
 Before testing the application, ensure you have the following:
@@ -64,11 +64,11 @@ Replace the placeholder values with your actual MySQL and Snowflake connection d
 
 Click Send in Postman to execute the request. The application will process the data and load it into Snowflake according to the provided configuration.
 
-**Deployment**
+<h2>Deployment</h2>
 
 The application is containerized using Docker and deployed on Render. You can view the deployment status and logs on the Render dashboard.
 
-**Additional Information**
+<h2>Additional Information</h2>
 Repository: GitHub Repository URL (Replace with your actual repository URL)
 Diagram: globchal_diagram.pdf (Provides a visual representation of the architecture)
 Docker Image: Available on Docker Hub (Replace with your actual Docker Hub repository if applicable)
