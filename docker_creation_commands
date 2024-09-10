@@ -1,0 +1,11 @@
+docker image build -t globchal .
+docker run -d -p 5000:5000 globchal
+
+
+
+
+--You can push a new image to the repository:
+
+docker tag globchal luisbernal20/globchal_rep:latest
+docker login
+docker push luisbernal20/globchal_rep:latest
