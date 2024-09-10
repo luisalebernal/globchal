@@ -37,14 +37,23 @@ Docker image on Render: https://globchal-rep-docker.onrender.com/execute
 2. Configure the Request Body: In Postman, select the Body tab, choose the Raw option, and set the format to JSON. Then, enter the following JSON body:
 
 {
+
   "configuration": {
+  
     "sourceConnection": {
+    
       "username": "username_value",
+      
       "password": "password_value",
+      
       "host": "host_value",
+      
       "port": "port_value",
+      
       "database": "database_value",
+      
       "connectorName": "MySQL"
+      
     },
     "targetConnection": {
       "username": "username_value",
